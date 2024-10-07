@@ -56,3 +56,15 @@ Escalar vertical es aumentar hacia "arriba" el servidor, al igual que la base de
 escalar horizontalmente, es tener más maquinas para distribuir la máquina
 
 ![Escalar](assets/escalar.png)
+
+escalar vertical: 1. downtime
+                2. más sencillo
+                3. mejor coste
+                4. vertical tiene límite
+
+escalar vertical: 1. 0 downtime
+2.más complicado
+3.más caro
+4. disponibilidad, al caerse un servidor.
+
+
