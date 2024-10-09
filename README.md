@@ -68,3 +68,67 @@ escalar vertical: 1. 0 downtime
 4. disponibilidad, al caerse un servidor.
 
 
+# EC2 Elastic cloud computing
+## no deja de ser a los servidores de toda la vida
+
+
+<p>
+
+lo que tenemos es la capacidad, una instancia de una maquina
+
+puedes levantar tantas maquinas como necesites puedes tener imagenes de mac, linux, y otros servicios
+
+</p>
+
+
+ tipo de instancia = recursos de la maquina
+
+ t2.nena más baja en recursos
+
+
+ t2.micro apto para la capa gratuita
+
+
+ recursos de red = muchas peticiones muchos datos, el rendimiento de la red puede afectar mucho la pagina
+
+
+ par de claves = conn to ssh desde nuestro ordenador
+
+
+ redes = normalmente en el cloud, todas los sv que se necesiten entre si deben estar en la misma redes para que no haya latencia
+
+
+ grupo de seguridad, reglas de firewall para entrada y salida de la instancia
+
+
+
+
+ un sv web, necesita un grupo de seguridad para como se tiene que comportar la instancia en el PORT 80
+
+
+ RDS relational database services 
+
+
+# amazon s3
+
+ ## bucket y objetos
+
+# global?, el nombre del bucket debe ser unico en todo el mundo, 
+
+
+cloudfront, es una capa firewall
+
+# lambda 
+
+### servicio de computación sin sv permite ejecutar codigo, sin sv
+
+
+## si llegan 1000 lambdas se ejecutan 1000
+
+poca latencia
+solo pagas por el tiempo de computación
+tambien capa gratuita
+son absurdamente barata
+
+### desencadenadores
+cuando ocurra algo, cuando se reciba una accion de trigger
